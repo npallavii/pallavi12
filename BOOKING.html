@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Place Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: rgb(106, 241, 128);"><br>
+    <br>
+    <br>
+    <br>
+    <center>
+    <div class="booking-container" style="color: rgb(50, 50, 231);">
+        <h1 style="color: rgb(123, 22, 216);"><i>Book a Visit to a Tourist Place</i></h1>
+
+        <form action="confirm.html">
+            <label for="name"><b>Full Name:</b></label>
+            <input type="text" id="name" name="name" required>
+<br>
+<br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required>
+<br>
+<br>
+            <label for="date"><b>Preferred Visit Date:</b></label>
+            <input type="date" id="date" name="date" required>
+<br>
+<br>
+            <label for="place"><b>Select Tourist Place:</b></label>
+            <select id="place" name="place" required>
+                <option value="Great Wall of China">Great Wall of China</option>
+                <option value="Eiffel Tower">Eiffel Tower</option>
+                <option value="Machu Picchu">Machu Picchu</option>
+                <option value="Colosseum">Colosseum</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
